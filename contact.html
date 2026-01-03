@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Veridian Capital Associates</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon_io/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Veridian Shield" class="logo-img">
+                <span class="logo-text">VERIDIAN CAPITAL ASSOCIATES</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About & Legacy</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="portal.html" class="btn-portal">Client Portal</a>
+        </div>
+    </nav>
+
+    <section class="section-padding">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 50px;">
+                <h1>Initialize Dialogue</h1>
+                <p style="color: #666; max-width: 600px; margin: 10px auto;">
+                    Veridian Capital accepts a limited number of new advisory mandates per quarter. 
+                    Please provide details below for the Principal's review.
+                </p>
+            </div>
+
+            <div style="display: flex; gap: 60px;" class="contact-flex">
+                <div style="flex: 2; background: white; padding: 40px; border: 1px solid #eee; border-top: 4px solid var(--veridian-emerald);">
+                    
+                    <form action="https://formspree.io/f/xbjnqylz" method="POST">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div class="form-group">
+                                <label class="form-label">Full Name</label>
+                                <input type="text" name="name" class="form-input" placeholder="e.g. John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Organization / Family Office</label>
+                                <input type="text" name="organization" class="form-input" placeholder="Organization Name" required>
+                            </div>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div class="form-group">
+                                <label class="form-label">Email Address</label>
+                                <input type="email" name="email" class="form-input" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Your Role</label>
+                                <select name="role" class="form-select">
+                                    <option value="Principal">Principal / CEO</option>
+                                    <option value="ChiefOfStaff">Chief of Staff / Gatekeeper</option>
+                                    <option value="FamilyMember">Family Member</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Nature of Inquiry</label>
+                            <select name="inquiry_type" class="form-select">
+                                <option value="Strategy">Corporate Strategy Advisory</option>
+                                <option value="Trusts">Trusts & Legacy Planning</option>
+                                <option value="Networking">Networking / Access</option>
+                                <option value="Speaking">Speaking Engagement</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Briefing / Message</label>
+                            <textarea name="message" class="form-textarea" placeholder="Please outline your primary objectives..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-main" style="width: 100%;">Submit Briefing</button>
+                    </form>
+                </div>
+
+                <div style="flex: 1; padding-top: 20px;">
+                    <img src="img/img3.png" alt="Dr. Okumu Standing" style="width: 100%; margin-bottom: 30px; border-radius: 4px;">
+                    
+                    <h4 style="margin-bottom: 10px;">Major Times On Major Things!</h4>
+                    <p style="font-size: 0.9rem; margin-bottom: 20px; color: #555;">
+                        Veridian Capital Associates,<br>
+                        Kenya
+                    </p>
+                    
+                    <h4 style="margin-bottom: 10px;">Direct Inquiries</h4>
+                    <p style="font-size: 0.9rem; color: #555;">
+                        <a href="mailto:info@veridian.com" style="color: var(--veridian-emerald); text-decoration: underline;">info@veridian.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h4>Confidential Dialogue</h4>
+        <p style="opacity: 0.8; font-size: 0.9rem; margin-bottom: 20px;">Veridian Capital Associates operates with the utmost discretion.</p>
+        <a href="contact.html" class="footer-link">Initialize Contact</a>
+        <br><br>
+        <p style="font-size: 0.7rem; opacity: 0.5;">© 2025 Veridian Capital Associates. Nairobi.</p>
+    </footer>
+
+</body>
+</html>
